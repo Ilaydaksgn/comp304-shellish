@@ -40,7 +40,7 @@ static char *resolve_in_path(const char *cmd) {
 
         if (access(full, X_OK) == 0) {
             free(paths);
-            return full;  // malloc'lı döner
+            return full;  
         }
         free(full);
     }
