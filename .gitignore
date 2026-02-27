@@ -1,0 +1,8 @@
+shell-ish
+a.out
+*.o
+*.out
+*.log
+*.swp
+*~
+.DS_Store
